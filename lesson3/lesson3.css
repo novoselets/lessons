@@ -1,0 +1,279 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.site{
+    width: 70%;
+    margin: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 30px 0px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.logo{
+    width: 240px;
+    height: 50px;
+    padding-left: 15%;
+}
+.menu{
+    padding-right: 15%;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px 20px;
+    margin: 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    background-color: rgb(50, 58, 105);
+    color: wheat;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner_name{
+    padding: 165px 0px 180px 0px;
+    width: 285px;
+    margin-left: 16%;
+}
+h1{
+    color: rgb(99, 98, 98);
+    font-size: 50px;
+    font-weight: 100;
+}
+h2{
+    font-size: 32px;
+    font-weight: 100;
+    color: grey;
+    line-height: 0.6em;
+}
+.banner_img{
+    width: 760px;
+    height: 360px;
+    padding-top: 70px;
+    margin-left: 60px;
+}
+.main{
+    display: flex;
+}
+.main_info{
+    width: 700px;
+    display: flex;
+    position: relative;
+    margin-bottom: 25px;
+}
+.main_info_img{
+    padding-top: 30px;
+    width: 300px;
+}
+.main_info_all{
+    margin-left: 10px;
+    width: 320px;
+    height: 200px;
+}
+.main_info_name{
+    font-size: 26px;
+    color: rgb(86, 94, 94);
+}
+.main_info_text{
+    text-align: justify;
+    font-size: 14px;
+    color: grey;
+    margin-top: -20px;
+}
+.for_strelki{
+    position: absolute;
+    display: flex;
+    bottom: 2px;
+    right: 35px;
+}
+.strelki{
+    height: 40px;
+}
+.main_content{
+    width: 680px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    width: 212px;
+    margin: 5px;
+}
+.text_name{
+    font-size: 20px;
+    color: rgb(85, 83, 83);
+}
+.text_data{
+    font-size: 12px;
+}
+.text_text{
+    font-size: 12px;
+}
+.add1{
+    border: 1px solid grey;
+    width: 320px;
+    text-align: center;
+    line-height: 0em;
+    margin-top: 25px;
+}
+.add1_text{
+    font-size: 16px;
+}
+.add1_name{
+    font-size: 28px;
+    color: #b8dc58;
+    font-weight: 800;
+}
+.add1_img{
+    height: 170px;
+}
+.add2{
+    width: 320px;
+    height: 270px;
+    background-color: #86e7f0;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.add2_data{
+    background-color: #ef809f;
+    border-radius: 66px;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 800;
+    border: 6px solid white;
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+.bold{
+    font-size: 70px;
+    margin-bottom: -20px;
+    margin-top: 0px;
+}
+.add2_name{
+    font-size: 36px;
+    margin: -20px 0px;
+}
+.add2_text{
+    font-size: 18px;
+}
+.add2_inp{
+    font-size: 20px;
+    width: 180px;
+    height: 34px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    background-color: #58d1dc;
+}
+.add3{
+    height: 285px;
+    background-color: #393a39;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    border-bottom: 8px solid #bb4465;
+}
+.form_name{
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-bottom: -15px;
+}
+.form_text{
+    font-size: 18px;
+}
+.add3a{
+    width: 260px;
+    height: 26px;
+    margin-bottom: 10px;
+}
+.add3c{
+    width: 180px;
+    height: 32px;
+    background-color: #bb4465;
+    color: white;
+    border-radius: 8px;
+}
+.footer{
+    background-color: #393a39;
+    text-align: center;
+    height: 80px;
+    color: white;
+    margin-top: 20px;
+}
+.footersite{
+    position: relative;
+    padding-top: 20px;
+}
+.footer_img{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.footer_img>img{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0px 10px;
+}
+.add_block{
+    width: 320px;
+}
+
+@media screen and (max-width: 1200px) {
+    .add_block{
+        display: none;
+}
+}
+@media screen and (max-width:1060px) {
+    .banner_img{
+        width: 50%;
+        height: 50%;
+    }
+    .site{
+        width: 75%;
+        margin: auto;
+    }
+    .icon{
+        display: none;
+    }
+}
+@media screen and (max-width:980px) {
+    .site{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:800px){
+    .site{
+        width: 90%;
+        margin: auto;
+    }
+
+}
+
+
+@media screen and (max-width:720px){
+    
+    .site{
+        width: 100%;
+        margin: auto;
+    }
+}
