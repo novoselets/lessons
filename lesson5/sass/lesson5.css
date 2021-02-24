@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.site {
+  width: 1080px;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px auto;
+  background-image: url(../map.jpg);
+  background-size: 1080px 800px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: white;
+}
+
+.mainland {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 360px;
+  height: 400px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.mainland_name {
+  font-size: 36px;
+  font-weight: 800;
+  margin: -25px 0px 10px 5px;
+}
+
+.country {
+  height: 280px;
+  width: 320px;
+  position: relative;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.281);
+}
+
+.country_flag {
+  width: 120px;
+  position: absolute;
+  top: 1px;
+  left: 0px;
+}
+
+.country_name {
+  font-size: 28px;
+  position: relative;
+  left: 130px;
+  bottom: 10px;
+  font-weight: 700;
+}
+
+.country_city {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.country_city_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.country_city_block_name {
+  display: inline-block;
+  margin: 15px 70px 0 0;
+  font-size: 20px;
+}
+
+.country_city_block_flag {
+  width: 70px;
+  height: 50px;
+  margin: 5px 20px;
+}
+
+.usa {
+  background-color: rgba(23, 37, 80, 0.692);
+}
+
+.europe {
+  background-color: rgba(107, 33, 117, 0.7);
+}
+
+.asia {
+  background-color: rgba(138, 33, 33, 0.7);
+}
+
+.africa {
+  background-color: rgba(208, 228, 28, 0.7);
+}
+
+.australia {
+  background-color: rgba(255, 167, 2, 0.7);
+}
+/*# sourceMappingURL=lesson5.css.map */

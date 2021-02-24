@@ -1,0 +1,76 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.site{
+    width: 1080px;
+    height: 800px;
+    display: flex;
+    margin: 50px auto;
+    background-image: url(../map.jpg);
+    background-size: 1080px 800px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: white;
+}
+.mainland{
+    @include center();
+    width: 360px;
+    height: 400px;
+    box-sizing: border-box;
+    text-align: center;
+        &_name{
+            font-size: 36px;
+            font-weight: 800;
+            margin: -25px 0px 10px 5px;
+        }
+}
+.country{
+    height: 280px;
+    width: 320px;
+    position: relative;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.281);
+        &_flag{
+            width: 120px;
+            position: absolute;
+            top: 1px;
+            left: 0px;
+        }
+        &_name{
+            font-size: 28px;
+            position: relative;
+            left: 130px;
+            bottom: 10px;
+            font-weight: 700;
+        }
+        &_city{
+            font-size: 24px;
+            margin-left: 20px;
+            font-weight: 500;
+                &_block{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+        }
+}
+.country_city_block_name{
+    display: inline-block;
+    margin: 15px 70px 0 0;
+    font-size: 20px;
+}
+.country_city_block_flag{
+    width: 70px;
+    height: 50px;
+    margin: 5px 20px;
+}
+
+@import "./country_back"
