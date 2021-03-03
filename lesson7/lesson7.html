@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Резюме</title>
+<link rel="stylesheet" href="lesson7.css">
+</head>
+<body>
+    <div class="resume">
+        <div class="resume_text">
+            <p class="resume_text_company">
+                GRASS BUSINESS LABS
+            </p>
+            <p class="resume_text_hello">
+                Привет! Рады видеть тебя!!!
+            </p>
+            
+            <p class="resume_text_info">
+                Наша команда доказала свою компетентность в ежедневной помощи нашим клиентам в создании сайтов и программ. <br/>
+                Мы ищем мастера своего дела, и ... кажется нашли его!!! 
+            </p>
+            <p class="resume_text_go">
+                Заполните форму и мы с Вами свяжемся!!!
+            </p>        
+        </div>
+        <div class="resume_user">
+            <form class="resume_user_form" action="#" method="post">
+                <fieldset>
+                    <legend>ФИО</legend>
+                    <input class="name" type="text" placeholder="Имя" required name="name">
+                    <input class="lastname" type="text" placeholder="Фамилия" required name="lastname">
+                    <input class="fathername" type="text" placeholder="Отчество" name="father">        
+                    <input class="city" type="text" placeholder="Город проживания" name="city" >  
+                    <label for="birthtoo">Дата рождения
+                    <input class="birth" id="birthtoo" type="date" name="birth">
+                    </label>   
+                </fieldset>           
+                <fieldset class="resume_exp">
+                    <legend>Обучение и опыт работы</legend>
+                    <input type="text" placeholder="Школа" name="school">
+                    <input type="text" placeholder="Университет" name="university">
+                    <input type="text" placeholder="Факультет" name="#">
+                    <input type="text" placeholder="Последнее место работы" name="work">  
+                    <input type="number" placeholder="Опыт работы, кол-во лет" name="experience">             
+                </fieldset>                
+                <fieldset class="resume_skill"> 
+                    <legend>Навыки</legend> 
+                    <textarea class="skill"  placeholder="Мои навыки" name="skill"></textarea>                         
+                </fieldset>
+                <fieldset class="resume_contacts">
+                    <legend>Контакты</legend>
+                    <input type="number" placeholder="Введите номер телефона" name="number">
+                    <input type="mail" placeholder="Введите вашу ел.почту" name="mail">           
+                </fieldset>
+                <input class="submit" type="submit" value="Отправить резюме">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

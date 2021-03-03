@@ -1,0 +1,100 @@
+body {
+  padding: ppx;
+  margin: 0px;
+  color: white;
+  background-image: url(../lesson7/fon.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resume {
+  max-width: 700px;
+  margin: 20px auto 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.075);
+  border-radius: 20px;
+}
+
+.resume_text_company {
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+
+.resume_text_hello {
+  font-size: 32px;
+  font-weight: bold;
+  color: darkgreen;
+  text-align: center;
+}
+
+.resume_user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 300px;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+label {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  margin: 20px auto;
+  padding: 2px 20px;
+}
+
+input {
+  display: block;
+  margin: 5px auto;
+}
+
+.skill {
+  height: 60px;
+  width: 290px;
+}
+
+.submit {
+  width: 200px;
+  height: 50px;
+  margin: 40px auto 50px;
+  background-color: green;
+  color: black;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+
+.submit:hover {
+  width: 210px;
+  height: 52px;
+  background-color: #018f01;
+  font-size: 14px;
+}
+/*# sourceMappingURL=lesson7.css.map */
