@@ -1,0 +1,145 @@
+
+
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0;
+    padding: 0%;
+    background: linear-gradient(180deg, #121619, #242d33, #111619, #191f23, #111619);
+    max-width: 1920px;
+    font-size: 14px;
+    letter-spacing: .1em;
+    font-family: sans-serif;
+    color: rgba(177, 177, 177, 0.562);
+
+}
+.header{
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    &_logo{
+        height: 150px;
+        display: flex;
+        align-items: center;
+        &_tenx{
+            width: 120px;
+            height: 30px;
+            margin: 60px;
+        }
+        &_phone{
+            width: 25px;
+            height: 25px;
+            margin: 15px;
+        }
+        &_number{
+            display: inline-block;
+            color: rgba(177, 177, 177, 0.562);
+            letter-spacing: .12em;
+            font-size: 12px;
+        }
+    }
+    &_menu{
+        display: flex;
+        letter-spacing: .12em;
+        &_ul{
+            margin: 65px 100px 0 0;
+            &_li{
+                list-style-type: none;
+                display: inline-block;
+                margin: 0 25px;
+                &>a{
+                    text-decoration: none;
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    color: rgba(177, 177, 177, 0.562);
+                }
+            }
+        }
+    }
+    &_connection{
+        position: absolute;
+        right: 40px;
+        top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &_logo{
+            height: 14px;
+            margin: 20px 5px 20px 0;
+            &_inst{
+                width: 22px;
+            }
+            &_fon{
+                display: none;
+            }
+            &_big{
+                height: 16px;
+            }
+        }
+    }
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    margin-bottom: 150px;
+    text-align: center;
+    &_line1{
+        width: 500px;
+        height: 1px;
+        background: linear-gradient(90deg, rgb(245, 25, 146), rgb(77, 8, 134))
+    }
+    &_line2{
+        width: 500px;
+        height: 1px;
+        background: linear-gradient(270deg, rgb(245, 25, 146), rgb(77, 8, 134))
+    }
+    &_block{
+        position: relative;
+        &_logo{
+            height: 30px;
+            width: 120px; 
+            margin-bottom: 30px;
+        }
+        &_nav_a{
+            text-decoration: none;
+            cursor: pointer;
+            margin: 20px;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: rgb(105, 105, 105);
+            &:hover{
+                color: white;
+                transition: all .4s ease;
+            }
+        }
+        &_img>a>img{
+            height: 18px;
+            margin: 18px;
+            position: relative;
+            &:hover{
+                top: 2px;
+            }
+        }
+    }
+
+}
+
+
+
+@import "_banner.scss";
+@import "_content.scss";
+@import "_shop.scss";
+@import "_info.scss";
+
+
+
+
+
+
