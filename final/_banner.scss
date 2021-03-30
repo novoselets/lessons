@@ -1,34 +1,35 @@
 
 .banner{
+    align-items: center;
     position: relative;
-    width: 1650px;
-    height: 700px;
-    left: 50%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1650px;
     overflow: hidden;
-    transform: translate(-50%, 1%);
     &_slides{
         width: 400%;
-        height: 650px;
         display: flex;
         margin: auto;
         &_slide{
-            width: 25%;
+            width: 24.9%;
             transition: all .6s ease;
             &>img{
                 width: 95%;
-                height: 500px;
                 margin: 0px 50px;
             }
         }
     } 
+    &_text{
+        text-align: center;
+        font-size: 26px;
+        font-family: serif;
+        text-transform: uppercase;
+        letter-spacing: 1.35em;
+    }
     &_lables{
-        position: absolute;
         display: flex;
         width: 160px;
         height: 30px;
-        bottom:30px;
-        left: 50%;
-        transform: translate(-50%, -50%);
         &_label{
             height: 20px;
             width: 20px;
@@ -39,7 +40,6 @@
             background-size: 40%;
             border-radius: 10px;
             margin: 10px;
-            //border-radius: 9px;
             transition:all .1s ease;
             &:hover{
                 box-sizing: border-box;
@@ -55,7 +55,7 @@
     transform: rotate(90deg);
     position: absolute;
     right: -40px;
-    top: 230px;
+    top: 25%;
     letter-spacing: .3em;
     }  
     &_what{
@@ -66,19 +66,9 @@
         position: absolute;
         left: -70px;
         letter-spacing: .3em;
-        top: 230px;
+        top: 25%;
         color: rgb(121, 4, 175);
         font-weight: bold;
-    }
-    &_text{
-        font-size: 26px;
-        font-family: serif;
-        text-transform: uppercase;
-        position: absolute;
-        bottom: 120px;
-        left: 50%;
-        transform: translateX(-50%);
-        letter-spacing: 1.35em;
     }
 }
 input[name="r"] {

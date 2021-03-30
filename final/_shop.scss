@@ -1,7 +1,7 @@
 
 .shops{
     padding-top: 270px;
-    max-width: 1700px;
+    width: 100%;
     margin: auto;
     background-image: url(img/background_portfolio.png) ;
     background-repeat: no-repeat;
@@ -17,6 +17,7 @@
     }
     &_shop{
         display: flex;
+        width: 100%;
         flex-wrap: wrap;
         justify-content: space-around;
         &_block{
@@ -102,13 +103,13 @@
                 }
                 &_img5{
                     margin-top: 70px;
-                    width: 450px;
+                    max-width: 450px;
                     height:300px ;
                     margin-left: auto;
                 }
                 &_img6{
                     margin-top: 30px;
-                    width: 600px;
+                    max-width: 600px;
                     height:400px ;
                 }
             }
